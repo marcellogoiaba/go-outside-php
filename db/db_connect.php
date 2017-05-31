@@ -6,5 +6,4 @@ if(mysqli_connect_errno()){
 }
 // $myQuery = "INSERT INTO test VALUES ('', 'Wayne')";
 // $query = mysqli_query($conn, $myQuery);
-
  ?>
