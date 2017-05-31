@@ -1,0 +1,27 @@
+{
+  "name": "go-outside-php",
+  "version": "1.0.0",
+  "description": "A social network for Outdorsie people developed in PHP",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/marcellogoiaba/go-outside-php.git"
+  },
+  "keywords": [
+    "PHP",
+    "JavaScript",
+    "MySQL"
+  ],
+  "author": "Marcelo Silva",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/marcellogoiaba/go-outside-php/issues"
+  },
+  "homepage": "https://github.com/marcellogoiaba/go-outside-php#readme",
+  "dependencies": {
+    "gentelella": "^1.3.0"
+  }
+}
