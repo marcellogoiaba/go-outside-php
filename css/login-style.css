@@ -10,9 +10,7 @@ body{
 }*/
 @import url(https://fonts.googleapis.com/css?family=Roboto:400,100);
 .water{
-  position: relative;
-  bottom: 0;
-  background: url(../GoOutsideTransparent.png) no-repeat;
+  background: url(../assets/images/GoOutsideTransparent.png) no-repeat;
 }
 .login-header{
   background: rgb(0, 0, 0); /* Fall-back for browsers that don't support rgba */
@@ -106,15 +104,59 @@ body{
   padding-right: 5px;
 }
 .notifications{
-  font-size: 12px;
+  font-size: 14px;
   color: #fff;
 }
 .notif_success{
-  color: green;
+  color: #fff;
 }
 .maxWidth{
   max-width: 600px;
 }
 .minWidth{
   min-width: 350px;
+}
+.top_bar{
+  width: 100%;
+  height: 50px;
+  top: 0;
+  background: #6d36d2;
+  border-bottom: solid 3px #008cba;
+  display: inline-flex;
+}
+.wrapper{
+  margin: 0 auto;
+  top: 50px;
+  position: relative;;
+  padding: 0 10px;
+  width: 75%;
+  min-width:950px;
+}
+.collumn{
+  background: rgb(0, 0, 0); /* Fall-back for browsers that don't support rgba */
+  background: rgba(0, 0, 0, .4);
+  width: 250px;
+  margin-top: 20;
+  margin-top: 20px;
+  z-index: -1;
+  padding: 15px;
+}
+.user_details{
+  height: 90px;
+  float: left;
+}
+.profile_pic{
+  width: 60px;
+  height: 60px;
+  padding: 1px;
+  border-radius:30px;
+  border: 2px solid #fff;
+  float: left;
+  position: absolute;
+}
+.user_info{
+  float: right;
+  width: 145px;
+  height: 70px;
+  color: #fff;
 }

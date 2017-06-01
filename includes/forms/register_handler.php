@@ -99,13 +99,13 @@ if(isset($_POST['reg_button'])){
     if($rand == 1)
       $profile_pic = "./assets/images/profile_pics/defaults/default_profile_blue.png";
     if($rand == 2)
-      $profile_pic = "./assets/images/profile_pics/defaults/default_profile_yellow.png.png";
+      $profile_pic = "./assets/images/profile_pics/defaults/default_profile_yellow.png";
     if($rand == 3)
-      $profile_pic = "./assets/images/profile_pics/defaults/default_profile_purple.png.png";
+      $profile_pic = "./assets/images/profile_pics/defaults/default_profile_purple.png";
     if($rand == 4)
-      $profile_pic = "./assets/images/profile_pics/defaults/default_profile_red.png.png";
+      $profile_pic = "./assets/images/profile_pics/defaults/default_profile_red.png";
     if($rand == 5)
-      $profile_pic = "./assets/images/profile_pics/defaults/default_profile_green.png.png";
+      $profile_pic = "./assets/images/profile_pics/defaults/default_profile_green.png";
 
 
     $sqlQuery = "INSERT INTO users VALUES ('', '$fname', '$lname', '$theUser', '$email', '$password', '$date', '$profile_pic', '0', '0', 'no', ',' )";

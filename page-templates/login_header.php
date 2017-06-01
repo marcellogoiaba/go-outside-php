@@ -4,13 +4,14 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Bootstrap Login &amp; Register Templates</title>
+    <title>Go Outside - Login</title>
 
     <!-- CSS -->
     <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Roboto:400,100,300,500">
     <link rel="stylesheet" href="http://bootswatch.com/yeti/bootstrap.min.css">
     <link rel="stylesheet" href="./page-templates/assets/font-awesome/css/font-awesome.min.css">
     <link rel="stylesheet" href="./css/page-style.css">
+    <link rel="shortcut icon" href="./assets/img/favicon.ico" type="image/x-icon" />
 
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->

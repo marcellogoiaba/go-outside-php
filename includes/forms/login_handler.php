@@ -15,6 +15,15 @@ if(isset($_POST['login_button'])){
   $check_row = mysqli_num_rows($check_query);
   if($check_row == 1){
     $row = mysqli_fetch_array($check_query);
+
+    $closed_query = "SELECT * FROM users WHERE (email='$email' AND user_closed='yes') OR (username='$username' AND user_closed='yes')";
+    $reopen_query = "SELECT users SET user_closed='no' WHERE email='$email' or username='$username'";
+    $user_closed_query = mysqli_query($conn, $closed_query);
+    if(mysqli_num_rows($user_closed_query == 1)){
+      $reopen_account = mysqli_query($conn, $reopen_query);
+    }
+    
+
     $username = $row['username'];
     $_SESSION['username'] = $username;
     header("Location: index.php");
