@@ -1,0 +1,120 @@
+body{
+    background: url(../gradientbackgrond.svg) center center;
+}
+/*.watermark{
+    background-image: url(GoOutsideLogo.png);
+    position: absolute;
+    height: 700px;
+    width: 100%;
+    margin-top: 4%;
+}*/
+@import url(https://fonts.googleapis.com/css?family=Roboto:400,100);
+.water{
+  position: relative;
+  bottom: 0;
+  background: url(../GoOutsideTransparent.png) no-repeat;
+}
+.login-header{
+  background: rgb(0, 0, 0); /* Fall-back for browsers that don't support rgba */
+  background: rgba(0, 0, 0, .4);
+  border: 1px solid rgba(0, 0, 0, .2);
+  border-bottom: 0px ;
+  color: #fff;
+  margin: 0px;
+  padding: 15px;
+  padding-bottom: 4px;
+}
+.login-card {
+
+  padding-top: 20px;
+  background: rgb(0, 0, 0); /* Fall-back for browsers that don't support rgba */
+  background: rgba(0, 0, 0, .2);
+  border: 1px solid rgba(0, 0, 0, .2);
+  margin: 0 auto 10px;
+  border-radius: 2px;
+  border-top-left-radius: 0px;
+  border-top-right-radius: 0px;
+  box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.3);
+  overflow: hidden;
+}
+
+
+.login-card input[type=submit] {
+  width: 100%;
+  display: block;
+  margin-bottom: 10px;
+  position: relative;
+}
+
+
+.login {
+  text-align: center;
+  font-size: 14px;
+  font-family: 'Arial', sans-serif;
+  font-weight: 700;
+  height: 36px;
+  padding: 0 8px;
+/* border-radius: 3px; */
+/* -webkit-user-select: none;
+  user-select: none; */
+}
+
+.login-submit {
+  /* border: 1px solid #3079ed; */
+  border: 0px;
+  color: #fff;
+  text-shadow: 0 1px rgba(0,0,0,0.1);
+  background-color: #4d90fe;
+  /* background-image: -webkit-gradient(linear, 0 0, 0 100%,   from(#4d90fe), to(#4787ed)); */
+}
+
+.login-submit:hover {
+  /* border: 1px solid #2f5bb7; */
+  border: 0px;
+  text-shadow: 0 1px rgba(0,0,0,0.3);
+  background-color: #357ae8;
+  /* background-image: -webkit-gradient(linear, 0 0, 0 100%,   from(#4d90fe), to(#357ae8)); */
+}
+
+.login-card a {
+  text-decoration: none;
+  color: #666;
+  font-weight: 400;
+  text-align: center;
+  display: inline-block;
+  opacity: 0.6;
+  transition: opacity ease 0.5s;
+}
+.padding-top{
+  padding-top: 70px;
+}
+.login-card a:hover {
+  opacity: 1;
+}
+
+.login-help {
+  width: 100%;
+  text-align: center;
+  font-size: 12px;
+}
+.nopaddingright{
+  padding-right: 0px;
+  padding-left: 5px;
+}
+.nopaddingleft{
+  padding-left: 0px;
+  padding-right: 5px;
+}
+.notifications{
+  font-size: 12px;
+  color: #fff;
+}
+.notif_success{
+  color: green;
+}
+.maxWidth{
+  max-width: 600px;
+}
+.minWidth{
+  min-width: 350px;
+}

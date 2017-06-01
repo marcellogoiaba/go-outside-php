@@ -1,7 +1,14 @@
 
-    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
-    <!-- Include all compiled plugins (below), or include individual files as needed -->
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
-  </body>
+     <!-- Javascript -->
+     <script src="./page-templates/assets/js/jquery-1.11.1.min.js"></script>
+     <script src="./page-templates/assets/bootstrap/js/bootstrap.min.js"></script>
+     <script src="./page-templates/assets/js/jquery.backstretch.min.js"></script>
+     <script src="./page-templates/assets/js/scripts.js"></script>
+
+     <!--[if lt IE 10]>
+         <script src="assets/js/placeholder.js"></script>
+     <![endif]-->
+
+ </body>
+
 </html>
