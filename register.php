@@ -9,14 +9,14 @@ include './includes/forms/login_handler.php';
 <div class="water">
   <div class="container">
     <div class="col-sm-6">
-      <div class="col-md-12">
+      <div class="col-sm-12">
         <div class="col-sm-3"></div>
         <div class="col-sm-9 maxWidth minWidth">
-          <div class="col-md-12 login-header">
+          <div class="col-sm-12 login-header">
             <p>Already a buddy?</p>
             <h2>Login Here &nbsp &nbsp<i class="fa fa-lock"></i></h2>
           </div>
-          <div class="col-md-12 login-card">
+          <div class="col-sm-12 login-card">
             <form class="" action="register.php" method="POST">
 
               <input type="text" class="form-control" name="log_email" placeholder="Email or Username" required="true"
@@ -33,13 +33,13 @@ include './includes/forms/login_handler.php';
     </div>
     <div class="col-sm-6">
       <div <div class="row">
-        <div class="col-md-12">
+        <div class="col-sm-12">
           <div class="col-sm-9 maxWidth minWidth">
-              <div class="col-md-12 login-header">
+              <div class="col-sm-12 login-header">
                 <p>Not yet a buddy?</p>
                 <h2>Register Here &nbsp &nbsp<i class="fa fa-pencil"></i></h2>
               </div>
-              <div class="col-md-12 login-card">
+              <div class="col-sm-12 login-card">
                 <form class="" action="register.php" method="POST">
                   <div class="form-group col-xs-6 nopaddingleft">
                     <input type="text" class="form-control" name="reg_fname" placeholder="First Name" minlength="2" maxlength="25" required="true"

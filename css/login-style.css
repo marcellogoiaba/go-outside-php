@@ -135,14 +135,12 @@ body{
 .collumn{
   background: rgb(0, 0, 0); /* Fall-back for browsers that don't support rgba */
   background: rgba(0, 0, 0, .4);
-  width: 250px;
-  margin-top: 20;
   margin-top: 20px;
-  z-index: -1;
-  padding: 15px;
+  padding: 10px;
 }
-.user_details{
-  height: 90px;
+.side_bar{
+  height: 82px;
+  width: 240px;
   float: left;
 }
 .profile_pic{
@@ -154,9 +152,55 @@ body{
   float: left;
   position: absolute;
 }
+.profile_pic img{
+  width: 52px;
+  height: 52px;
+  border-radius: 27px;
+  margin: 1px;
+}
 .user_info{
   float: right;
-  width: 145px;
+  width: 150px;
   height: 70px;
   color: #fff;
+  font-size: 12px;
+}
+.user_info a{
+  text-decoration: none;
+  font-size: 13px;
+  color: #fff;
+}
+.main_collumn{
+  margin-left: 15px;
+  float: left;
+  width: 60%;
+}
+.main_collumn_header{
+  color: #fff;
+  height: 23px;
+}
+.main_collumn_header:hover{
+  background: rgba(0, 0, 0, .13);
+  -webkit-box-shadow: 0px 0px 20px 5px rgba(0,0,0,0.16);
+  -moz-box-shadow: 0px 0px 20px 5px rgba(0,0,0,0.16);
+  box-shadow: 0px 0px 20px 5px rgba(0,0,0,0.16);
+  cursor: hand;
+
+}
+.right_border{
+  border-right: 1px solid #fff;
+}
+#newEventPanel{
+  display: none;
+}
+.formSlider{
+  margin-top: 45px;
+  /*display: none;*/
+}
+.app-label{
+  color: #fff;
+}
+select{
+  font-family: 'FontAwesome', 'Arial';
+  color: #b7b5b5;
 }
